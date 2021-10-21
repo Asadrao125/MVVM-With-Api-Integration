@@ -16,8 +16,8 @@ import com.appsxone.mvvmwithapiintegration.view_model.MovieListViewModel;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    RecyclerView rvMoviesList;
     MovieListAdapter adapter;
+    RecyclerView rvMoviesList;
     List<MovieModel> moviesList;
     MovieListViewModel viewModel;
 

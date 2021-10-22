@@ -9,8 +9,6 @@ import retrofit2.http.GET;
 
 public interface APIService {
 
-    //@GET("volley_array.json")
-    //@GET("posts")
     @GET("photos")
     Call<List<MovieModel>> getMovieList();
 
